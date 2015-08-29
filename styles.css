@@ -1,14 +1,46 @@
-.btn {
-    border: 1px solid;
-    border-color: #337ab7;
+.col-md-6 {
+    padding-left: 0px;
 }
 
 table, th, td, tr {
-    border: 1px solid #337ab7;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
 }
 
-.main {
-    background-image: url(logo.jpg) no-repeat center center;
+table {
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+    width: 33%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+span {
+    color: #337ab7;
+}
+
+.btn {
+    border: 1px solid;
+    border-color: #337ab7;
+    background-color: white;
+    width: 110px;
+}
+
+.btn:hover {
+    background-color: #337ab7;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer li {
+    display: inline-block;
 }
